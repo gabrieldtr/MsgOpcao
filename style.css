@@ -1,0 +1,42 @@
+.pai{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(12, 211, 178);
+    text-align: center;
+    position: absolute;
+}
+.filha{
+    position: relative;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0);
+    width: 450px;
+    height: 45px;
+    margin: 10px auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filha:hover{
+    transition: 0s;
+    background-color: white;
+}
+div:hover.filha{
+    color: rgb(12, 211, 178);
+}
+.filha2{
+    background-color: rgb(68, 3, 245);
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+}
+div:hover.filha2{
+    color: rgb(12, 211, 178);
+}
+.filha0{
+    display: none;
+}
